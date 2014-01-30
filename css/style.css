@@ -1,0 +1,61 @@
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  background: url("../img/gradient.png") repeat-x, url("../img/background.png") repeat;
+}
+
+h1 {
+	text-align: center;
+	text-shadow: 0px 2px 3px #c4dfee;
+  	font-size: 48px;
+  	font-weight: bold;
+  	color: #536f7f;
+}
+
+h2 {
+	padding: 0;
+	margin: 0;
+	display: inline;
+	font-size: 32px;
+	line-height: 32px;
+	vertical-align: middle;
+}
+
+a {
+	text-decoration: underline;
+	color: #fff;
+	font-weight: bold;
+}
+
+img {
+  border: 0;
+}
+
+img.icon {
+	vertical-align: middle;
+	margin-right: 15px;
+}
+
+.box {
+	margin: 0 auto;
+	background: rgb(0, 0, 0); /* fallback */
+	background: rgba(0, 0, 0, 0.2);
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	color: #fff;
+	width: 500px;
+	padding: 15px;
+	margin-bottom: 15px;
+	text-shadow: 1px 1px 3px #333;
+}
+
+	.box .footer {
+	  margin-top: 30px;
+	  text-align: right;
+	}
+
+.screenshot {
+	margin-right: 10px;
+	-moz-box-shadow: 1px 1px 3px #333;
+	-webkit-box-shadow: 1px 1px 3px #333;
+	box-shadow: 1px 1px 3px #333;
+}
